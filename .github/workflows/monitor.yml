@@ -2,7 +2,7 @@ name: Exam Monitor
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Run every hour
+    - cron: '*/5 * * * *'  # Run every 5 minutes (approx)
   workflow_dispatch:      # Allow manual trigger
 
 jobs:
